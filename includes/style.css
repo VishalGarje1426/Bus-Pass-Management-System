@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+body {
+    font-family:sans-serif;
+}
+
+.navbar-logo {
+    width: 100px;
+    height: 80px;
+}
+
+.navbar-toggler {
+    color: #ffffff !important;
+}
+
+.bg-dark {
+    background-color: #2b0318 !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-toggler {
+    border: 0px;
+}
+
+.copyright {
+    display: inline !important;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:hover {
+    color: #fecc00 !important;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fecc00 !important;
+}
+
+.footer-link:hover {
+    color: rgb(222, 164, 255) !important;
+}
+
+.active {
+    color: #fecc00 !important;
+}
+
+.form-label {
+    font-size: 15px !important;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+.l-f-space{
+    margin-top: 114px;
+}
+@media screen and (max-width: 991px) {
+    .nav-item {
+        background-color: #fecc00;
+        margin-bottom: 5px;
+    }
+    .nav-link {
+        color: #2b0318 !important;
+        font-weight: bold;
+        padding-left: 5px !important;
+    }
+    .nav-link:hover {
+        color: rgb(92, 5, 143) !important;
+    }
+    .active {
+        color: rgb(92, 5, 143) !important;
+    }
+    .l-f-space{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 992px) {
+    .navbar-toggler {
+        display: none !important;
+    }
+}
